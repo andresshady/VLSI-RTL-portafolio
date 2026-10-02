@@ -1,0 +1,17 @@
+# Vivado: archivos que se regeneran
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
+.Xil/
+xsim.dir/
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.backup.*
+webtalk*
+vivado_pid*
