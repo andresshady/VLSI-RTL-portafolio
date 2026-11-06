@@ -1,12 +1,21 @@
-# Vivado: archivos que se regeneran
+# Keep only sources in git. Create Vivado projects inside vivado/ or build/
+# (both ignored) and add the rtl/, tb/, constraints/ and ip/ files to them.
+vivado/
+build/
+
+# Vivado generated files
 *.cache/
 *.hw/
 *.runs/
 *.sim/
 *.ip_user_files/
 *.gen/
+*.srcs/
 .Xil/
 xsim.dir/
+*.xpr
+*.dcp
+*.bda
 *.jou
 *.log
 *.str
@@ -15,3 +24,13 @@ xsim.dir/
 *.backup.*
 webtalk*
 vivado_pid*
+
+# Simulation outputs
+*.vvp
+*.vcd
+*.fst
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
